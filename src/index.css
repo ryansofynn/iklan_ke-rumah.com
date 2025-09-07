@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;800&display=swap");
+@import "tailwindcss";
+
+body {
+  @apply bg-[#F5F5F5] text-slate-900;
+  font-family: "Poppins", sans-serif;
+}
