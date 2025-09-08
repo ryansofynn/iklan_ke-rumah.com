@@ -169,7 +169,7 @@ const Promo = () => {
           Promo HEPI, <span className="font-[800]">HEMATNYA PASTI</span> hingga
           <span className="font-[800]"> Rp1.250 juta. </span>Beli AC DAIKIN
           Multi-S dengan harga promo sampai{" "}
-          <span className="font-[800]">31 September 2025!</span>
+          <span className="font-[800]">30 September 2025!</span>
         </h2>
         <h2 className="text-sm md:text-base text-justify mb-8">
           Ditambah <span className="font-[800]">HEMAT TEMPAT</span>,{" "}

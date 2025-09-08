@@ -1,4 +1,4 @@
-import React from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Harga = () => {
   return (
@@ -14,17 +14,29 @@ const Harga = () => {
           PESAN SEKARANG & DAPATKAN PROMONYA!
         </h1>
 
-        {/* Tombol WhatsApp */}
+        {/* Info klik */}
         <a
-          href="https://wa.me/6281340004155?text=Halo%2C%20saya%20tertarik%20dengan%20Promo%20AC%20DAIKIN%20MULTI-S."
+          href="https://wa.me/6282130104003?text=Halo%2C%20saya%20tertarik%20dengan%20Promo%20AC%20DAIKIN%20MULTI-S."
           target="_blank"
           rel="noopener noreferrer"
-          className="group inline-block mt-6 px-24 pt-2 pb-4 bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white rounded-2xl shadow-xl hover:scale-110 active:scale-105 transform transition duration-300 ease-in-out"
+          className="block mt-5 text-sm text-gray-600 animate-pulse"
+        >
+          👇 Klik di sini untuk pesan via WhatsApp
+        </a>
+
+        {/* Tombol WhatsApp */}
+        <a
+          href="https://wa.me/6282130104003?text=Halo%2C%20saya%20tertarik%20dengan%20Promo%20AC%20DAIKIN%20MULTI-S."
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group inline-block mt-4 px-10 py-4 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-600 hover:to-blue-700 text-white rounded-2xl shadow-xl hover:scale-110 active:scale-105 transform transition duration-300 ease-in-out"
         >
           <span className="block text-sm font-medium tracking-wide">
             Hemat Hingga :
           </span>
-          <span className="block text-5xl font-extrabold text-amber-400 mt-3 group-hover:animate-bounce group-active:animate-bounce">
+
+          <span className="flex items-center justify-center gap-3 text-5xl font-extrabold text-amber-400 mt-3 group-hover:animate-bounce group-active:animate-bounce">
+            <FaWhatsapp className="text-5xl" />
             1.250<span className="text-2xl align-top">JT*</span>
           </span>
         </a>

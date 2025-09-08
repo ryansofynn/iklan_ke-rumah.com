@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
 
         {/* Box Hemat (tabel) */}
-        <div className="absolute bottom-0 md:bottom-25 left-1/2 -translate-x-1/2 translate-y-1/2 w-[75%] sm:w-[60%] md:w-[50%] lg:w-[45%]">
+        <div className="absolute bottom-0 md:bottom-35 left-1/2 -translate-x-1/2 translate-y-1/2 w-[75%] sm:w-[60%] md:w-[50%] lg:w-[45%]">
           <div className="rounded-xl bg-[#1968A9] drop-shadow-lg flex items-center justify-between p-3 transform transition duration-300 hover:scale-105 active:scale-105">
             {/* Kolom Kiri */}
             <div className="text-white text-sm md:text-xl lg:text-2xl space-y-3 md:space-y-4 lg:space-y-5 tracking-wide">
@@ -49,25 +49,27 @@ const Hero = () => {
             {/* Kolom Kanan */}
             <div className="text-white text-center">
               <h1 className="text-xs md:text-lg lg:text-xl">HEMAT HINGGA :</h1>
-              <h1 className="font-[800] text-3xl md:text-4xl lg:text-5xl text-amber-400 mb-1 md:mb-3 lg:mb-4">
+              <h1 className="font-[800] text-3xl md:text-4xl lg:text-5xl text-amber-400 mt-2 mb-1 md:mb-3 lg:mb-4">
                 <sup className="text-sm md:text-lg lg:text-2xl">Rp</sup> 1.250
                 <span className="text-lg md:text-xl lg:text-2xl"> JT</span>
               </h1>
-              <a
-                href="https://wa.me/6281340004155?text=Halo%2C%20saya%20tertarik%20dengan%20Promo%20AC%20DAIKIN%20MULTI-S."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs md:text-sm lg:text-base py-1 px-4 rounded-full text-white bg-amber-500 hover:bg-amber-400 font-bold tracking-wider"
-              >
-                KLIK DI SINI
-              </a>
             </div>
+          </div>
+          <div className="text-center mt-7">
+            <a
+              href="https://wa.me/6282130104003?text=Halo%2C%20saya%20tertarik%20dengan%20Promo%20AC%20DAIKIN%20MULTI-S."
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg md:text-sm lg:text-base py-1 px-7 rounded-full text-white bg-amber-500 hover:bg-amber-400 font-bold tracking-wide"
+            >
+              KLIK DI SINI
+            </a>
           </div>
         </div>
       </div>
 
       {/* Spasi antar tabel dan logo */}
-      <div className="h-20 md:h-16"></div>
+      <div className="h-28 md:h-12"></div>
 
       {/* Logo */}
       <div className="flex justify-center items-center gap-4 md:gap-20 lg:gap-40">
