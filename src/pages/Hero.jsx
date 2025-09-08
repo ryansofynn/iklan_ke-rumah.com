@@ -1,7 +1,17 @@
 import { FaLocationDot, FaLeaf } from "react-icons/fa6";
 import { MdElectricBolt } from "react-icons/md";
+import { trackWhatsAppClick } from "../fbPixel";
 
 const Hero = () => {
+  const handleWhatsAppClick = () => {
+    trackWhatsAppClick(); // kirim event ke Facebook Pixel
+    window.open(
+      "https://wa.me/6282130104003?text=Halo%2C%20saya%20tertarik%20dengan%20Promo%20AC%20DAIKIN%20MULTI-S.",
+      "_blank",
+      "noopener noreferrer"
+    ); // ganti nomor WA kamu
+  };
+
   return (
     <section className="relative w-full">
       {/* Background - Gambar */}
@@ -57,10 +67,8 @@ const Hero = () => {
           </div>
           <div className="text-center mt-7">
             <a
-              href="https://wa.me/6282130104003?text=Halo%2C%20saya%20tertarik%20dengan%20Promo%20AC%20DAIKIN%20MULTI-S."
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lg md:text-sm lg:text-base py-1 px-7 rounded-full text-white bg-amber-500 hover:bg-amber-400 font-bold tracking-wide"
+              onClick={handleWhatsAppClick}
+              className="cursor-pointer text-lg md:text-sm lg:text-base py-1 px-7 rounded-full text-white bg-amber-500 hover:bg-amber-400 font-bold tracking-wide"
             >
               KLIK DI SINI
             </a>
