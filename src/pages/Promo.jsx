@@ -1,6 +1,9 @@
 import { FaLocationDot, FaLeaf } from "react-icons/fa6";
 import { MdElectricBolt } from "react-icons/md";
 import React, { useEffect, useRef, useState } from "react";
+import spesifikasi1 from "../assets/spesifikasi-1.png";
+import spesifikasi2 from "../assets/spesifikasi-2.png";
+import ac1 from "../assets/ac-1.png";
 
 // Komponen Lightbox
 function CTAImageLightbox({ ctaLabel = "Lihat Spesifikasi", images = [] }) {
@@ -137,12 +140,12 @@ function CTAImageLightbox({ ctaLabel = "Lihat Spesifikasi", images = [] }) {
 const Promo = () => {
   const images = [
     {
-      src: "../src/assets/spesifikasi-1.png",
+      src: spesifikasi1,
       alt: "Spesifikasi Unit Indoor",
       caption: "Spesifikasi lengkap Unit Indoor Multi-S",
     },
     {
-      src: "/src/assets/spesifikasi-2.png",
+      src: spesifikasi2,
       alt: "Spesifikasi Unit Outdoor",
       caption: "Spesifikasi lengkap Unit Outdoor Multi-S",
     },
@@ -153,7 +156,7 @@ const Promo = () => {
       {/* Gambar */}
       <div className="mx-4 flex justify-center">
         <img
-          src="../src/assets/ac-1.png"
+          src={ac1}
           alt="AC DAIKIN"
           className="w-full h-auto object-cover rounded-2xl md:max-w-xl lg:max-w-2xl cursor-pointer transform transition duration-300 hover:scale-110 active:scale-110"
         />

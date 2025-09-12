@@ -1,6 +1,11 @@
 import { FaLocationDot, FaLeaf } from "react-icons/fa6";
 import { MdElectricBolt } from "react-icons/md";
 import { trackWhatsAppClick } from "../fbPixel";
+import cewe from "../assets/cewe.png";
+import cowo from "../assets/cowo.png";
+import daikin from "../assets/daikin.png";
+import multis from "../assets/multi-es.png";
+import inverter from "../assets/inverter.png";
 
 const Hero = () => {
   const handleWhatsAppClick = () => {
@@ -17,13 +22,13 @@ const Hero = () => {
       {/* Background - Gambar */}
       <div className="relative flex">
         <img
-          src="../src/assets/cewe.png"
-          alt="Cewe"
+          src={cewe}
+          alt="AC Daikin"
           className="w-1/2 md:h-screen object-cover object-top"
         />
         <img
-          src="../src/assets/cowo.png"
-          alt="Cowo"
+          src={cowo}
+          alt="AC Daikin"
           className="w-1/2 md:h-screen object-cover object-top"
         />
 
@@ -81,21 +86,9 @@ const Hero = () => {
 
       {/* Logo */}
       <div className="flex justify-center items-center gap-4 md:gap-20 lg:gap-40">
-        <img
-          src="../src/assets/daikin.png"
-          alt="Daikin"
-          className="h-7 md:h-12"
-        />
-        <img
-          src="../src/assets/multi-es.png"
-          alt="Multi-S"
-          className="h-7 md:h-12"
-        />
-        <img
-          src="../src/assets/inverter.png"
-          alt="Inverter"
-          className="h-7 md:h-12"
-        />
+        <img src={daikin} alt="Daikin" className="h-7 md:h-12" />
+        <img src={multis} alt="Multi-S" className="h-7 md:h-12" />
+        <img src={inverter} alt="Inverter" className="h-7 md:h-12" />
       </div>
     </section>
   );

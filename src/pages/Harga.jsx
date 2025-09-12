@@ -1,5 +1,6 @@
 import { FaWhatsapp } from "react-icons/fa";
 import { trackWhatsAppClick } from "../fbPixel";
+import harga from "../assets/harga.png";
 
 const Harga = () => {
   const handleWhatsAppClick = () => {
@@ -15,7 +16,7 @@ const Harga = () => {
     <section className="pt-10 py-16 md:pt-30">
       {/* Gambar */}
       <div className="relative w-full md:max-w-xl lg:max-w-2xl flex flex-col justify-center items-center mx-auto cursor-pointer transform transition duration-300 hover:scale-105 active:scale-105">
-        <img src="../src/assets/harga.png" alt="List Harga" />
+        <img src={harga} alt="List Harga" />
       </div>
 
       {/* Teks & CTA */}
